@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "advanced-sea-navigation-techniques",
+  "version": "${version}",
+  "name": "Advanced Sea Navigation Techniques",
+  "description": "Advanced Techniques for Sea Navigation",
+  "authors": [
+    "Earthcomputer"
+  ],
+  "contact": {
+    "website": "https://en.wikipedia.org/wiki/Powder_of_sympathy",
+    "repo": "https://github.com/Earthcomputer/AdvancedSeaNavigationTechniques"
+  },
+  "license": "MIT",
+  "icon": "assets/advanced-sea-navigation-techniques/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.earthcomputer.advancedseanavigationtechniques.client.AdvancedSeaNavigationTechniquesClient"
+    ],
+    "main": [
+      "net.earthcomputer.advancedseanavigationtechniques.AdvancedSeaNavigationTechniques"
+    ]
+  },
+  "mixins": [
+    "advanced-sea-navigation-techniques.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
